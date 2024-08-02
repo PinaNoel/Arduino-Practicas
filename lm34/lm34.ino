@@ -4,12 +4,12 @@ int pinLM35 = 1; // Variable del pin de entrada del sensor (A0)
 void setup() {
 
   Serial.begin(9600);
-  pinMode(7 , OUTPUT);
+  //pinMode(7 , OUTPUT);
  
 }
  
 void loop() {
-  digitalWrite(7, HIGH);
+  //digitalWrite(7, HIGH);
 
 
   tempC = analogRead(pinLM35); 
@@ -20,6 +20,6 @@ void loop() {
   Serial.println(tempC);
   
 
-  digitalWrite(7, LOW);
+  //digitalWrite(7, LOW);
   delay(1000);
 }

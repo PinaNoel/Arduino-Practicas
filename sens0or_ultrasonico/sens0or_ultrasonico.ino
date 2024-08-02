@@ -1,5 +1,5 @@
-const int Trigger = 2;  
-const int Echo = 3;
+const int Trigger = 7;  
+const int Echo = 8;
 
 void setup() {
 
